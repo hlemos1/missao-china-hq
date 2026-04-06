@@ -22,7 +22,7 @@
     "framer-motion": "^12.23.24",
     "fuse.js": "^7.1.0",
     "glob": "^11.0.3",
-    "hono": "4.7.7",
+    "hono": "4.12.7",
     "husky": "^9.1.7",
     "jsdom": "^27.0.0",
     "lucide-react": "^0.554.0",
@@ -45,8 +45,8 @@
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.12.0",
     "@eslint/js": "9.25.1",
-    "@getmocha/vite-plugins": "latest",
     "@getmocha/users-service": "^0.0.4",
+    "@getmocha/vite-plugins": "latest",
     "@types/node": "^24.7.2",
     "@types/react": "19.0.10",
     "@types/react-dom": "19.0.4",
@@ -102,5 +102,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:ui": "vitest --ui"
+  },
+  "overrides": {
+    "picomatch@<=4.0.4": "4.0.4"
   }
 }
